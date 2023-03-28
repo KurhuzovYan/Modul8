@@ -1,6 +1,11 @@
 package modul8;
 
 public class Quad extends Shape {
+    private double pointA;
+
+    public Quad(double pointA) {
+        this.pointA = pointA;
+    }
     @Override
     void nameOfFigure() {
         System.out.println("This is Quad");
@@ -8,6 +13,6 @@ public class Quad extends Shape {
 
     @Override
     double getArea() {
-        return 0;
+        return pointA * 2;
     }
 }
