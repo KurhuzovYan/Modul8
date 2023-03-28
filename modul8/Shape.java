@@ -1,5 +1,5 @@
 package modul8;
 
-public interface Shape {
-    String nameOfFigure();
+abstract class Shape {
+   abstract void nameOfFigure();
 }

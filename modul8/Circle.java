@@ -1,8 +1,8 @@
 package modul8;
 
-public class Circle implements Shape {
+public class Circle extends Shape {
     @Override
-    public String nameOfFigure() {
-        return "This Circle";
+    public void nameOfFigure() {
+        System.out.println("This is Circle");
     }
 }
