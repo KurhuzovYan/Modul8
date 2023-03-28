@@ -2,7 +2,12 @@ package modul8;
 
 public class Quad extends Shape {
     @Override
-    public void nameOfFigure() {
+    void nameOfFigure() {
         System.out.println("This is Quad");
+    }
+
+    @Override
+    double getArea() {
+        return 0;
     }
 }

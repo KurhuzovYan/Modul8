@@ -5,4 +5,8 @@ public class Rectangle extends Shape{
     void nameOfFigure() {
         System.out.println("This is Rectangle");
     }
+    @Override
+    double getArea() {
+        return 0;
+    }
 }
