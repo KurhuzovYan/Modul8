@@ -18,7 +18,8 @@ public class Circle extends Shape implements CalculatingCircleArea {
         return diameter / 2;
     }
     @Override
-    public void nameOfFigure() {
+    public Shape nameOfFigure() {
         System.out.println("This is Circle");
+        return null;
     }
 }

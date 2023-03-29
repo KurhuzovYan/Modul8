@@ -10,8 +10,9 @@ public class Rhombus extends Shape{
     }
 
     @Override
-    void nameOfFigure() {
+    Shape nameOfFigure() {
         System.out.println("This is Rhombus");
+        return null;
     }
 
     @Override

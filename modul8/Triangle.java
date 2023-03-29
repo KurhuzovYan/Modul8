@@ -7,8 +7,9 @@ public class Triangle extends Shape {
     private double pointC;
 
     @Override
-    void nameOfFigure() {
+    Shape nameOfFigure() {
         System.out.println("This is Triangle");
+        return null;
     }
 
     public Triangle(double pointA, double pointB, double pointC) {

@@ -1,7 +1,7 @@
 package modul8;
 
 abstract class Shape {
-   abstract void nameOfFigure();
+   abstract Shape nameOfFigure();
    abstract double getArea();
 
 }

@@ -7,8 +7,9 @@ public class Quad extends Shape {
         this.pointA = pointA;
     }
     @Override
-    void nameOfFigure() {
+    Shape nameOfFigure() {
         System.out.println("This is Quad");
+        return null;
     }
 
     @Override
