@@ -1,9 +1,7 @@
 package modul8;
 
 public class PrintFigure {
-    public void getName(Shape[] shape){
-        for (Shape sp: shape) {
-            sp.nameOfFigure();
-        }
+    public void getName(Shape shape) {
+        System.out.println(shape.getShape());
     }
 }

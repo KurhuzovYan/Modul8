@@ -1,14 +1,25 @@
 package modul8;
 
 public class Quad extends Shape {
+    private String name = "Quad";
     private double pointA;
+
+    public Quad() {
+    }
+
     public Quad(double pointA) {
         this.pointA = pointA;
     }
+
     @Override
-    void nameOfFigure() {
-        System.out.println("This is Quad");
+    String getShape() {
+        return new Quad().getName();
     }
+
+    public String getName() {
+        return name;
+    }
+
     @Override
     double getArea() {
         return pointA * 2;
