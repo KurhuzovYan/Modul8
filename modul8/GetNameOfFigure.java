@@ -18,12 +18,10 @@ public class GetNameOfFigure {
         System.out.println("Circle radius: " + String.format("%.2f", circle2.getRadius()));
         System.out.println();
 
+        Shape[] allFigure = {circle, quad, triangle, rectangle, rhombus};
         PrintFigure print = new PrintFigure();
 
-        print.getName(circle);
-        print.getName(rectangle);
-        print.getName(quad);
-        print.getName(rhombus);
-        print.getName(triangle);
+        print.getName(allFigure);
+
     }
 }
