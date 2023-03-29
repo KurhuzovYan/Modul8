@@ -3,7 +3,6 @@ package modul8;
 public class Circle extends Shape implements CalculatingCircleArea {
 
     private double diameter;
-
     public Circle(){
     }
     public Circle(double diameter) {
@@ -18,8 +17,7 @@ public class Circle extends Shape implements CalculatingCircleArea {
         return diameter / 2;
     }
     @Override
-    public Shape nameOfFigure() {
+     void nameOfFigure() {
         System.out.println("This is Circle");
-        return null;
     }
 }

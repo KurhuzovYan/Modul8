@@ -10,19 +10,16 @@ public class GetNameOfFigure {
         Shape rectangle = new Rectangle(4,6);
         Shape rhombus = new Rhombus(3, 4);
 
-//        rhombus.nameOfFigure();
-//        System.out.println("Rhombus area: " + String.format("%.2f", rhombus.getArea()));
-//        rectangle.nameOfFigure();
-//        System.out.println("Rectangle area: " +  String.format("%.2f", rectangle.getArea()));
-//        quad.nameOfFigure();
-//        System.out.println("Quad area: " +  String.format("%.2f", quad.getArea()));
-//        triangle.nameOfFigure();
-//        System.out.println("Triangle area: " + String.format("%.2f", triangle.getArea()));
-//        circle.nameOfFigure();
-//        System.out.println("Circle area: " + String.format("%.2f", circle2.getArea()));
-//        System.out.println("Circle radius: " + String.format("%.2f", circle2.getRadius()));
+        System.out.println("Rhombus area: " + String.format("%.2f", rhombus.getArea()));
+        System.out.println("Rectangle area: " +  String.format("%.2f", rectangle.getArea()));
+        System.out.println("Quad area: " +  String.format("%.2f", quad.getArea()));
+        System.out.println("Triangle area: " + String.format("%.2f", triangle.getArea()));
+        System.out.println("Circle area: " + String.format("%.2f", circle2.getArea()));
+        System.out.println("Circle radius: " + String.format("%.2f", circle2.getRadius()));
+        System.out.println();
 
         PrintFigure print = new PrintFigure();
+
         print.getName(circle);
         print.getName(rectangle);
         print.getName(quad);
